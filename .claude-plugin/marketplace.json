@@ -1,0 +1,20 @@
+{
+  "name": "multi-agent-debate",
+  "version": "1.0.0",
+  "description": "Orchestrate multi-round AI debates with 4 agent roles (optimist, critic, researcher, verifier) for comprehensive idea analysis",
+  "author": "allenenli",
+  "license": "MIT",
+  "skills": [
+    {
+      "path": "./skills/multi-agent-debate",
+      "name": "multi-agent-debate",
+      "description": "Run a structured multi-agent debate on any topic"
+    }
+  ],
+  "commands": {
+    "debate": {
+      "description": "Start a multi-agent debate on a topic",
+      "path": "./.claude/commands/debate.md"
+    }
+  }
+}
