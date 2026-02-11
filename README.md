@@ -11,8 +11,8 @@ Orchestrate structured multi-round debates among AI agents to produce comprehens
 ### Option 1: Standalone CLI
 
 ```bash
-git clone https://github.com/allenenli/multi-agent-debate
-cd multi-agent-debate
+git clone https://github.com/Nicklonlee/multi-agent-debate-skills.git
+cd multi-agent-debate-skills
 pip install openai
 ```
 
@@ -37,7 +37,7 @@ python3 skills/multi-agent-debate/scripts/debate.py "Should we build a SaaS prod
 ### Option 2: Claude Code Plugin
 
 ```
-/plugin marketplace add allenenli/multi-agent-debate
+/plugin marketplace add Nicklonlee/multi-agent-debate-skills
 /plugin install multi-agent-debate
 ```
 
